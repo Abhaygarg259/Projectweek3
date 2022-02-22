@@ -1,0 +1,57 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main>
+    <div>
+       <h1 style="text-align:center"   class="display-4"><b>My <%= title %> </b> </h1>  <br/><br/><br/><br/> 
+     </div>
+   </main>
+<div> <Center>
+  <table style="border: 1px solid black; border-collapse: collapse; width: 800px; height: 200px;">
+    <tr>
+      <th>Name</th>
+      <td>Abhay Garg </td>
+    </tr>
+    <tr>
+      <th>Phone number</th>
+      <td>+1 647-863-0925</td> 
+    </tr>
+    <tr>
+      <th>Email</th>
+      <td>abhaygarg259@gmail.com</td>
+    </tr>
+  </table>
+</Center>
+</div>
+<br/>
+<div>
+  <form>
+    <div class="form-group">
+      <div class="form-group">
+        <label for="namesubmit">Name</label>
+        <input type="text" class="form-control" id="namesubmit" placeholder="Your Name">
+      </div>
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="Messagesubmit">Message</label>
+      <input type="text" class="form-control" id="Messagesubmit" placeholder="Type your Message here">
+    </div>
+    
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
+
+
+
+

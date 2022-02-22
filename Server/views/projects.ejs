@@ -1,0 +1,47 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+<style>
+  .prj_img {
+    height: 200px; 
+    width: 300px;
+    text-align: center; align-items:center;
+  }
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center; align-items:center;
+}
+</style>
+  <!-- Main Content -->
+  
+  <main>
+    <div>
+       <h1 style="text-align:center"   class="display-4"><b>My Projects</b> </h1>  <br/><br/><br/><br/> 
+     </div>
+   </main>
+
+  <div style="text-align: center; align-items:center ;">
+    <table >
+      <tr> 
+        <td><img class="prj_img" src="../Assets/images/escorts.jpg" alt="Escorts Limited"> </td>
+        <td><img class="prj_img" src="../Assets/images/internet remote control.png" alt="IOT based Remote control system"> </td>
+        <td><img class="prj_img" src="../Assets/images/blockchain.jpg" alt="blockchain"> </td>
+      </tr>
+      <tr>
+        <td><b>Escorts CRM application</b><br/> Customer Relationship Management application used to manage interactions with customers and potential customers</td>
+        <td><b>IOT based Remote control system</b> <br/> With the help of this application you can connect to the internet and make your mobile into a remote</td>
+        <td><b>Decentralized Mailing system </b> <br/> We were trying to create a Decentralized mailing system on blockchain. Thus, to achieve secure mailing system</td>
+      </tr>
+    </table>
+  </div>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
+
+
+
+

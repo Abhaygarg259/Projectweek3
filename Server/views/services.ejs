@@ -1,0 +1,46 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+<style>
+  .prj_img {
+    height: 200px; 
+    width: 300px;
+    text-align: center; align-items:center;
+  }
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center; align-items:center;
+}
+</style>
+  <!-- Main Content -->
+  
+  <main>
+    <div>
+       <h1 style="text-align:center"   class="display-4"><b>My Services</b> </h1>  <br/><br/><br/><br/>  
+     </div>
+   </main>
+  
+  <div style="text-align: center; align-items:center ;">
+    <table >
+      <tr>
+        <td><img class="prj_img" src="../Assets/images/android_category_thumbnail.png" alt="Android application Developmen"> </td>
+        <td><img class="prj_img" src="../Assets/images/full stack.jpg" alt="Full Stack Development"> </td>
+        <td><img class="prj_img" src="../Assets/images/blockchain.jpg" alt="Blockchain"> </td>
+      </tr>
+      <tr>
+        <td><b>Android application Development</b> <br/>Provide both front-end and back-end development/support of Android based application</td>
+        <td><b>Full Stack Development </b><br/>Provide both front-end and back-end development/support of web application using Spring MVC.</td>
+        <td><b>Blockchain</b> <br/>Provide design and development of private block chain integration using Hyperledger and Ethereum.</td>
+      </tr>
+    </table>
+  </div>
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
+
+
+
+
